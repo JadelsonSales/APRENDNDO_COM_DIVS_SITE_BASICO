@@ -1,0 +1,164 @@
+#pagina{
+    display: table;
+    background-color:#fcfcfc;
+    width: 900px;
+    margin: 0 auto;
+   
+    
+  }
+  #headerp{
+    margin-top: 5px;
+    background-color: #4ea3d8;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    
+  }
+  #mainp{
+    margin-top: 3px;
+    display: flex;
+    flex-direction: row;
+    background-color: yellow;
+    width: 900px;
+    height:0 auto;
+  }
+  #sectionp{
+    display: flex;
+    flex-direction: column;
+    width:700px;
+    height: 97%;
+    background-color: red;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-left: 2px;
+  }
+  #article1{
+    margin-top: 15px;
+    margin-left: 2px;
+    display:flex;
+    flex-direction: row;
+    width:99%;
+    height: 280px;
+    background-color: blue;
+    
+    
+  }
+  #article2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 5px;
+    margin-left: 2px;
+    width:99%;
+    height: 259px;
+    background-color: #267d48;
+    
+  }
+  #aside1{
+    text-align: center;
+    margin-left: 2px;
+    width:100%;
+    height: 100%;
+    display:  flex;
+    background-color: #e60ff5;
+  }
+  #texto{
+    height: 100%;
+    width:100%;
+    display:flex;
+    background-color: #9c8b9c;
+  }
+  #aside2{
+     display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-left: 2px;
+    width:195px;
+    height: 97%;
+    background-color: #75a0e6;
+  }
+  #foter{
+   display: flex; 
+    width:900px;
+    height: 30px;
+    background-color: #49d5df
+  }
+  a {text-decoration: none;}
+  
+  .container {
+    margin: auto;
+    width: 898px;
+  
+  }
+  
+  ul {
+    padding-left: 0;
+      margin-top: 0;
+      margin-bottom: 0;
+    list-style: none;
+  }
+  
+  nav {
+    background: #141414;
+    font-size: 0;
+    position: relative;
+    font-family: arial;
+      
+  }
+  
+  nav > ul > li {
+    display: inline-block;
+      font-size: 14px;
+      padding: 0 15px;
+      position: relative;
+  }
+  
+  nav > ul > li > a {
+    color: #fff;
+      display: block;
+      padding: 20px 0;
+      border-bottom: 3px solid transparent;
+      transition: all .3s ease;
+  }
+  nav > ul > li:hover > a {
+    color: #77eea5; 
+      border-bottom: 3px solid #ededed;
+  }
+  
+  .mega-menu {
+    background: #eee;
+      visibility: hidden;
+      opacity: 0;
+      transition: visibility 0s, opacity 0.5s linear;
+      position: absolute;
+      left: 0;
+      width: 100%;
+      padding-bottom: 5px;
+  }
+  .mega-menu h3 {color: #444;}
+  
+  .mega-menu .container {
+      display: flex;
+  }
+  .mega-menu .item {
+    flex-grow: 1;
+      margin: 0 10px;
+  }
+  .mega-menu .item img {
+      width: 100%;
+  }
+  .mega-menu a {
+    border-bottom: 1px solid #ddd;
+      color: #4ea3d8;
+      display: block;
+      padding: 10px 0;
+  }
+  .mega-menu a:hover {color: #2d6a91;}
+  
+  
+  .dropdown {position: static;}
+  
+  .dropdown:hover .mega-menu {
+      visibility: visible;
+      opacity: 1;
+  }
