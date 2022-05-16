@@ -1,24 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo');
+
 #pagina{
     display: table;
-    background-color:#fcfcfc;
+    background-image: url(images/fundo.jpg);
     width: 900px;
     margin: 0 auto;
    
-    
   }
   #headerp{
     margin-top: 5px;
-    background-color: #4ea3d8;
     display: flex;
     flex-direction: column;
-    height: 100px;
+    justify-content: space-evenly;
+    align-items: stretch;
+    height: 150px;
     
+  }
+  #headerp h1 {
+    
+        font-family: "Cairo";
+        text-align: right ;
+        color: #FFF;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: flex-end;
+        height: 70vh;
+        letter-spacing: 1px;
+        line-height:2
+      }
+      
+      #headerp h1 {
+        background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+        background-size: cover;
+        color: transparent;
+        -moz-background-clip: text;
+        -webkit-background-clip: text;
+        text-transform: uppercase;
+        font-size: 30px;
+        margin: 5px 0;
+      }
+      /* styling my button */
+      
+      .white-mode {
+        text-decoration: none;
+        padding: 7px 10px;
+        background-color: #122;
+        border-radius: 3px;
+        color: #FFF;
+        transition: .35s ease-in-out;
+        position: absolute;
+        left: 15px;
+        bottom: 5px;
+        font-family: "Montserrat";
+      }
+      
+      .white-mode:hover {
+        background-color: #FFF;
+        color: #122;
+      }
+
+  
+  #nav1{
+padding-top: 10px;
+
   }
   #mainp{
     margin-top: 3px;
     display: flex;
     flex-direction: row;
-    background-color: yellow;
+    background-color: rgb(0, 0, 0);
     width: 900px;
     height:0 auto;
   }
@@ -27,7 +78,7 @@
     flex-direction: column;
     width:700px;
     height: 97%;
-    background-color: red;
+    background-color: rgb(250, 246, 246);
     margin-top: 15px;
     margin-bottom: 5px;
     margin-left: 2px;
@@ -87,8 +138,8 @@
   
   .container {
     margin: auto;
-    width: 898px;
-  
+    width: 900px;
+    
   }
   
   ul {
@@ -102,7 +153,7 @@
     background: #141414;
     font-size: 0;
     position: relative;
-    font-family: arial;
+    font-family: "cairo";
       
   }
   
@@ -116,7 +167,7 @@
   nav > ul > li > a {
     color: #fff;
       display: block;
-      padding: 20px 0;
+      padding: 10px 0;
       border-bottom: 3px solid transparent;
       transition: all .3s ease;
   }
@@ -133,7 +184,7 @@
       position: absolute;
       left: 0;
       width: 100%;
-      padding-bottom: 5px;
+      padding-bottom: 1px;
   }
   .mega-menu h3 {color: #444;}
   
