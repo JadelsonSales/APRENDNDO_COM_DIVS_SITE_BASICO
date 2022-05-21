@@ -190,6 +190,7 @@ padding-top: 10px;
   margin-left: 5px;
   font-family: cairo;
   line-height: 1.5;
+
   }
   #footer5{
     display: flex;
@@ -202,11 +203,10 @@ padding-top: 10px;
     line-height: 1.5;
     
     }
-
-  #lin:link {
-    color: rgb(243, 243, 247);
-   }
-   
+#lin{
+  color: white;
+}
+     
    #lin:hover {
     color: rgb(6, 136, 175);
    }
@@ -304,3 +304,121 @@ padding-top: 10px;
       visibility: visible;
       opacity: 1;
   }
+  .login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+  height: 500px;
+  margin-bottom: 5px;
+  }
+ 
+  .tela{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 400px;
+    background-color: white;
+    border-style: groove;
+    font-family: arial;
+    
+  }
+  .superior{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 85%;
+    background-color: white;
+  }
+  #logintexto{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    height: 30%;
+margin-top: 15px;
+margin-bottom: 20px;
+  }
+  #suasenha{
+    font-family: cairo;
+  }
+  #seulogin{
+    font-family: cairo;
+  }
+  input[type=text]{
+    display: block;
+    height: 18px;
+    border: none;
+    background-color: #dfd5d5;
+    outline: 0;
+    cursor: pointer;
+    width: 330px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: cairo;
+  }
+ 
+  input[type=password]{
+    display: block;
+    height: 18px;
+    border: none;
+    background-color: #dfd5d5;
+    outline: 0;
+    cursor: pointer;
+    width: 330px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: cairo;
+  }
+ 
+  #check{
+    font-size: 12px;
+    font-family: cairo;
+  }
+input[type=submit]{
+    display: block;
+    background-color: rgb(8, 158, 228);
+    height: 26px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 330px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 15px;
+    font-family: cairo;
+   
+}
+.inferior{
+display: flex;
+justify-content: flex-end;
+align-items: center;
+margin-top: 10px;
+background-color: rgb(227, 237, 241);
+width: auto;
+height: 50px;
+margin-bottom: 1px;
+}
+#cadastre{
+  font-family: cairo;
+  margin-right: 3px;
+  }
+#ns{
+  font-family: cairo;
+  margin-right: 3px;
+}
+#lin2{
+  font-size: 12px;
+  border: 0.5px;
+  border-style: solid;
+  background-color: #ddd;
+  color: black;
+  border-color: rgb(85, 95, 100);
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+ #lin2:hover {
+  color: rgb(255, 255, 255);
+ }
